@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656C75A21A226A120051B93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A11A226A120051B93F /* AppDelegate.swift */; };
+		656C75A41A226A120051B93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A31A226A120051B93F /* ViewController.swift */; };
+		656C75A71A226A120051B93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C75A51A226A120051B93F /* Main.storyboard */; };
+		656C75A91A226A120051B93F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656C75A81A226A120051B93F /* Images.xcassets */; };
+		656C75AC1A226A120051B93F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656C75AA1A226A120051B93F /* LaunchScreen.xib */; };
+		656C75B81A226A120051B93F /* fartwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75B71A226A120051B93F /* fartwatchTests.swift */; };
+		656C75C21A226B5B0051B93F /* FartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75C11A226B5B0051B93F /* FartManager.swift */; };
+		656C75C81A227A350051B93F /* fart1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75C41A227A350051B93F /* fart1.wav */; };
+		656C75C91A227A350051B93F /* fart2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75C51A227A350051B93F /* fart2.wav */; };
+		656C75CA1A227A350051B93F /* fart3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75C61A227A350051B93F /* fart3.wav */; };
+		656C75CB1A227A350051B93F /* fart4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75C71A227A350051B93F /* fart4.wav */; };
+		656C75D41A2284010051B93F /* fart5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75CC1A2284010051B93F /* fart5.wav */; };
+		656C75D51A2284010051B93F /* fart6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75CD1A2284010051B93F /* fart6.wav */; };
+		656C75D61A2284010051B93F /* fart7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75CE1A2284010051B93F /* fart7.wav */; };
+		656C75D71A2284010051B93F /* fart8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75CF1A2284010051B93F /* fart8.wav */; };
+		656C75D81A2284010051B93F /* fart9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D01A2284010051B93F /* fart9.wav */; };
+		656C75D91A2284010051B93F /* fart10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D11A2284010051B93F /* fart10.wav */; };
+		656C75DA1A2284010051B93F /* fart11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D21A2284010051B93F /* fart11.wav */; };
+		656C75DB1A2284010051B93F /* fart12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D31A2284010051B93F /* fart12.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656C75B21A226A120051B93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656C75941A226A120051B93F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656C759B1A226A120051B93F;
+			remoteInfo = fartwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656C759C1A226A120051B93F /* fartwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656C75A01A226A120051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656C75A11A226A120051B93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		656C75A31A226A120051B93F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		656C75A61A226A120051B93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		656C75A81A226A120051B93F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		656C75AB1A226A120051B93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		656C75B11A226A120051B93F /* fartwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fartwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656C75B61A226A120051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656C75B71A226A120051B93F /* fartwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fartwatchTests.swift; sourceTree = "<group>"; };
+		656C75C11A226B5B0051B93F /* FartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FartManager.swift; sourceTree = "<group>"; };
+		656C75C41A227A350051B93F /* fart1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart1.wav; sourceTree = "<group>"; };
+		656C75C51A227A350051B93F /* fart2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart2.wav; sourceTree = "<group>"; };
+		656C75C61A227A350051B93F /* fart3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart3.wav; sourceTree = "<group>"; };
+		656C75C71A227A350051B93F /* fart4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart4.wav; sourceTree = "<group>"; };
+		656C75CC1A2284010051B93F /* fart5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart5.wav; sourceTree = "<group>"; };
+		656C75CD1A2284010051B93F /* fart6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart6.wav; sourceTree = "<group>"; };
+		656C75CE1A2284010051B93F /* fart7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart7.wav; sourceTree = "<group>"; };
+		656C75CF1A2284010051B93F /* fart8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart8.wav; sourceTree = "<group>"; };
+		656C75D01A2284010051B93F /* fart9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart9.wav; sourceTree = "<group>"; };
+		656C75D11A2284010051B93F /* fart10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart10.wav; sourceTree = "<group>"; };
+		656C75D21A2284010051B93F /* fart11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart11.wav; sourceTree = "<group>"; };
+		656C75D31A2284010051B93F /* fart12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart12.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656C75991A226A120051B93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656C75AE1A226A120051B93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656C75931A226A120051B93F = {
+			isa = PBXGroup;
+			children = (
+				656C759E1A226A120051B93F /* fartwatch */,
+				656C75B41A226A120051B93F /* fartwatchTests */,
+				656C759D1A226A120051B93F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		656C759D1A226A120051B93F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656C759C1A226A120051B93F /* fartwatch.app */,
+				656C75B11A226A120051B93F /* fartwatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656C759E1A226A120051B93F /* fartwatch */ = {
+			isa = PBXGroup;
+			children = (
+				656C75A11A226A120051B93F /* AppDelegate.swift */,
+				656C75A31A226A120051B93F /* ViewController.swift */,
+				656C75C11A226B5B0051B93F /* FartManager.swift */,
+				656C75A51A226A120051B93F /* Main.storyboard */,
+				656C75A81A226A120051B93F /* Images.xcassets */,
+				656C75AA1A226A120051B93F /* LaunchScreen.xib */,
+				656C75C31A227A350051B93F /* sounds */,
+				656C759F1A226A120051B93F /* Supporting Files */,
+			);
+			path = fartwatch;
+			sourceTree = "<group>";
+		};
+		656C759F1A226A120051B93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656C75A01A226A120051B93F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656C75B41A226A120051B93F /* fartwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				656C75B71A226A120051B93F /* fartwatchTests.swift */,
+				656C75B51A226A120051B93F /* Supporting Files */,
+			);
+			path = fartwatchTests;
+			sourceTree = "<group>";
+		};
+		656C75B51A226A120051B93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656C75B61A226A120051B93F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656C75C31A227A350051B93F /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				656C75C41A227A350051B93F /* fart1.wav */,
+				656C75C51A227A350051B93F /* fart2.wav */,
+				656C75C61A227A350051B93F /* fart3.wav */,
+				656C75C71A227A350051B93F /* fart4.wav */,
+				656C75CC1A2284010051B93F /* fart5.wav */,
+				656C75CD1A2284010051B93F /* fart6.wav */,
+				656C75CE1A2284010051B93F /* fart7.wav */,
+				656C75CF1A2284010051B93F /* fart8.wav */,
+				656C75D01A2284010051B93F /* fart9.wav */,
+				656C75D11A2284010051B93F /* fart10.wav */,
+				656C75D21A2284010051B93F /* fart11.wav */,
+				656C75D31A2284010051B93F /* fart12.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656C759B1A226A120051B93F /* fartwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656C75BB1A226A120051B93F /* Build configuration list for PBXNativeTarget "fartwatch" */;
+			buildPhases = (
+				656C75981A226A120051B93F /* Sources */,
+				656C75991A226A120051B93F /* Frameworks */,
+				656C759A1A226A120051B93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fartwatch;
+			productName = fartwatch;
+			productReference = 656C759C1A226A120051B93F /* fartwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656C75B01A226A120051B93F /* fartwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656C75BE1A226A120051B93F /* Build configuration list for PBXNativeTarget "fartwatchTests" */;
+			buildPhases = (
+				656C75AD1A226A120051B93F /* Sources */,
+				656C75AE1A226A120051B93F /* Frameworks */,
+				656C75AF1A226A120051B93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656C75B31A226A120051B93F /* PBXTargetDependency */,
+			);
+			name = fartwatchTests;
+			productName = fartwatchTests;
+			productReference = 656C75B11A226A120051B93F /* fartwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656C75941A226A120051B93F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = breadsquito;
+				TargetAttributes = {
+					656C759B1A226A120051B93F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					656C75B01A226A120051B93F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 656C759B1A226A120051B93F;
+					};
+				};
+			};
+			buildConfigurationList = 656C75971A226A120051B93F /* Build configuration list for PBXProject "fartwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656C75931A226A120051B93F;
+			productRefGroup = 656C759D1A226A120051B93F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656C759B1A226A120051B93F /* fartwatch */,
+				656C75B01A226A120051B93F /* fartwatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656C759A1A226A120051B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75CB1A227A350051B93F /* fart4.wav in Resources */,
+				656C75A71A226A120051B93F /* Main.storyboard in Resources */,
+				656C75AC1A226A120051B93F /* LaunchScreen.xib in Resources */,
+				656C75D81A2284010051B93F /* fart9.wav in Resources */,
+				656C75D51A2284010051B93F /* fart6.wav in Resources */,
+				656C75C91A227A350051B93F /* fart2.wav in Resources */,
+				656C75CA1A227A350051B93F /* fart3.wav in Resources */,
+				656C75D91A2284010051B93F /* fart10.wav in Resources */,
+				656C75D71A2284010051B93F /* fart8.wav in Resources */,
+				656C75DA1A2284010051B93F /* fart11.wav in Resources */,
+				656C75A91A226A120051B93F /* Images.xcassets in Resources */,
+				656C75D61A2284010051B93F /* fart7.wav in Resources */,
+				656C75DB1A2284010051B93F /* fart12.wav in Resources */,
+				656C75C81A227A350051B93F /* fart1.wav in Resources */,
+				656C75D41A2284010051B93F /* fart5.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656C75AF1A226A120051B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656C75981A226A120051B93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75A41A226A120051B93F /* ViewController.swift in Sources */,
+				656C75C21A226B5B0051B93F /* FartManager.swift in Sources */,
+				656C75A21A226A120051B93F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656C75AD1A226A120051B93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75B81A226A120051B93F /* fartwatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656C75B31A226A120051B93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656C759B1A226A120051B93F /* fartwatch */;
+			targetProxy = 656C75B21A226A120051B93F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		656C75A51A226A120051B93F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656C75A61A226A120051B93F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		656C75AA1A226A120051B93F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656C75AB1A226A120051B93F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656C75B91A226A120051B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		656C75BA1A226A120051B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656C75BC1A226A120051B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fartwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		656C75BD1A226A120051B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fartwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		656C75BF1A226A120051B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fartwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fartwatch.app/fartwatch";
+			};
+			name = Debug;
+		};
+		656C75C01A226A120051B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fartwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fartwatch.app/fartwatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656C75971A226A120051B93F /* Build configuration list for PBXProject "fartwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656C75B91A226A120051B93F /* Debug */,
+				656C75BA1A226A120051B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656C75BB1A226A120051B93F /* Build configuration list for PBXNativeTarget "fartwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656C75BC1A226A120051B93F /* Debug */,
+				656C75BD1A226A120051B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		656C75BE1A226A120051B93F /* Build configuration list for PBXNativeTarget "fartwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656C75BF1A226A120051B93F /* Debug */,
+				656C75C01A226A120051B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 656C75941A226A120051B93F /* Project object */;
+}
