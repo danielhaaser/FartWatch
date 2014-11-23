@@ -13,6 +13,7 @@ class ViewController: UIViewController
 
     @IBOutlet weak var lblTestLabel: UILabel!
     var fartManager:FartManager!
+    var sharedUserDefaults:NSUserDefaults!
     
     override func viewDidLoad()
     {
@@ -20,6 +21,12 @@ class ViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
         
         fartManager = FartManager()
+        
+        sharedUserDefaults = NSUserDefaults(suiteName: "group.danielhaaserwatchhack.shared")
+
+        let timer = NSTimer(timeInterval: 0.1, target: self, selector: "timerFired", userInfo: nil, repeats: true)
+        NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
+        timer.fire()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "fartObserved", name: "fartButtonPressed", object: nil)
     }
@@ -38,7 +45,27 @@ class ViewController: UIViewController
 
     @IBAction func btnPlayFart(sender: AnyObject)
     {
+        NSLog("playFart on device pressed")
         fartManager.playFart()
+    }
+    
+    func timerFired()
+    {
+        NSLog("timer fired")
+        
+        var shouldPlay = sharedUserDefaults.boolForKey("playFart")
+        if (shouldPlay)
+        {
+            sharedUserDefaults.setBool(false, forKey: "playFart")
+            fartManager.playFart()
+            lblTestLabel.text = "Fart ACTIVATE!"
+        }
+        else
+        {
+            lblTestLabel.text = "Huh?"
+        }
+        
+
     }
 
 }

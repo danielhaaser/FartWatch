@@ -13,6 +13,7 @@ import Foundation
 class InterfaceController: WKInterfaceController
 {
     var fartPlayer:FartPlayer!
+    var sharedUserDefaults:NSUserDefaults!
     
     override init(context: AnyObject?)
     {
@@ -23,6 +24,8 @@ class InterfaceController: WKInterfaceController
         NSLog("%@ init", self)
         
         fartPlayer = FartPlayer()
+        
+        sharedUserDefaults = NSUserDefaults(suiteName: "group.danielhaaserwatchhack.shared")
     }
 
     override func willActivate()
@@ -46,5 +49,7 @@ class InterfaceController: WKInterfaceController
         fartPlayer.playFart()
         
         NSNotificationCenter.defaultCenter().postNotificationName("fartButtonPressed", object: nil)
+        
+        sharedUserDefaults.setBool(true, forKey: "playFart")
     }
 }

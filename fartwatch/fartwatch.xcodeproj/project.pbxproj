@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6524B0B11A2297B90088602D /* FartPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524B0B01A2297B90088602D /* FartPlayer.swift */; };
+		6524B0BF1A2299040088602D /* fart1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B31A2299040088602D /* fart1.wav */; };
+		6524B0C01A2299040088602D /* fart10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B41A2299040088602D /* fart10.wav */; };
+		6524B0C11A2299040088602D /* fart11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B51A2299040088602D /* fart11.wav */; };
+		6524B0C21A2299040088602D /* fart12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B61A2299040088602D /* fart12.wav */; };
+		6524B0C31A2299040088602D /* fart2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B71A2299040088602D /* fart2.wav */; };
+		6524B0C41A2299040088602D /* fart3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B81A2299040088602D /* fart3.wav */; };
+		6524B0C51A2299040088602D /* fart4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0B91A2299040088602D /* fart4.wav */; };
+		6524B0C61A2299040088602D /* fart5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0BA1A2299040088602D /* fart5.wav */; };
+		6524B0C71A2299040088602D /* fart6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0BB1A2299040088602D /* fart6.wav */; };
+		6524B0C81A2299040088602D /* fart7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0BC1A2299040088602D /* fart7.wav */; };
+		6524B0C91A2299040088602D /* fart8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0BD1A2299040088602D /* fart8.wav */; };
+		6524B0CA1A2299040088602D /* fart9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0BE1A2299040088602D /* fart9.wav */; };
+		6524B0CF1A22A7870088602D /* logonew-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0CE1A22A7870088602D /* logonew-02.png */; };
+		6524B0D21A22A9670088602D /* logonew-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0D11A22A9670088602D /* logonew-02.png */; };
+		6524B0D41A22AA120088602D /* logonew-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0D31A22AA120088602D /* logonew-02.png */; };
 		656C75A21A226A120051B93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A11A226A120051B93F /* AppDelegate.swift */; };
 		656C75A41A226A120051B93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A31A226A120051B93F /* ViewController.swift */; };
 		656C75A71A226A120051B93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C75A51A226A120051B93F /* Main.storyboard */; };
@@ -76,6 +91,23 @@
 
 /* Begin PBXFileReference section */
 		6524B0B01A2297B90088602D /* FartPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FartPlayer.swift; sourceTree = "<group>"; };
+		6524B0B31A2299040088602D /* fart1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart1.wav; sourceTree = "<group>"; };
+		6524B0B41A2299040088602D /* fart10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart10.wav; sourceTree = "<group>"; };
+		6524B0B51A2299040088602D /* fart11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart11.wav; sourceTree = "<group>"; };
+		6524B0B61A2299040088602D /* fart12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart12.wav; sourceTree = "<group>"; };
+		6524B0B71A2299040088602D /* fart2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart2.wav; sourceTree = "<group>"; };
+		6524B0B81A2299040088602D /* fart3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart3.wav; sourceTree = "<group>"; };
+		6524B0B91A2299040088602D /* fart4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart4.wav; sourceTree = "<group>"; };
+		6524B0BA1A2299040088602D /* fart5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart5.wav; sourceTree = "<group>"; };
+		6524B0BB1A2299040088602D /* fart6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart6.wav; sourceTree = "<group>"; };
+		6524B0BC1A2299040088602D /* fart7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart7.wav; sourceTree = "<group>"; };
+		6524B0BD1A2299040088602D /* fart8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart8.wav; sourceTree = "<group>"; };
+		6524B0BE1A2299040088602D /* fart9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart9.wav; sourceTree = "<group>"; };
+		6524B0CB1A22A0120088602D /* fartwatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fartwatch.entitlements; sourceTree = "<group>"; };
+		6524B0CC1A22A0A90088602D /* fartwatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "fartwatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		6524B0CE1A22A7870088602D /* logonew-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logonew-02.png"; sourceTree = "<group>"; };
+		6524B0D11A22A9670088602D /* logonew-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logonew-02.png"; sourceTree = "<group>"; };
+		6524B0D31A22AA120088602D /* logonew-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logonew-02.png"; sourceTree = "<group>"; };
 		656C759C1A226A120051B93F /* fartwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C75A01A226A120051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656C75A11A226A120051B93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +168,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6524B0B21A2299040088602D /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6524B0B31A2299040088602D /* fart1.wav */,
+				6524B0B41A2299040088602D /* fart10.wav */,
+				6524B0B51A2299040088602D /* fart11.wav */,
+				6524B0B61A2299040088602D /* fart12.wav */,
+				6524B0B71A2299040088602D /* fart2.wav */,
+				6524B0B81A2299040088602D /* fart3.wav */,
+				6524B0B91A2299040088602D /* fart4.wav */,
+				6524B0BA1A2299040088602D /* fart5.wav */,
+				6524B0BB1A2299040088602D /* fart6.wav */,
+				6524B0BC1A2299040088602D /* fart7.wav */,
+				6524B0BD1A2299040088602D /* fart8.wav */,
+				6524B0BE1A2299040088602D /* fart9.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		6524B0CD1A22A7750088602D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6524B0CE1A22A7870088602D /* logonew-02.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6524B0D01A22A9480088602D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6524B0D11A22A9670088602D /* logonew-02.png */,
+			);
+			name = images;
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		656C75931A226A120051B93F = {
 			isa = PBXGroup;
 			children = (
@@ -162,12 +230,14 @@
 		656C759E1A226A120051B93F /* fartwatch */ = {
 			isa = PBXGroup;
 			children = (
+				6524B0CB1A22A0120088602D /* fartwatch.entitlements */,
 				656C75A11A226A120051B93F /* AppDelegate.swift */,
 				656C75A31A226A120051B93F /* ViewController.swift */,
 				656C75C11A226B5B0051B93F /* FartManager.swift */,
 				656C75A51A226A120051B93F /* Main.storyboard */,
 				656C75A81A226A120051B93F /* Images.xcassets */,
 				656C75AA1A226A120051B93F /* LaunchScreen.xib */,
+				6524B0CD1A22A7750088602D /* images */,
 				656C75C31A227A350051B93F /* sounds */,
 				656C759F1A226A120051B93F /* Supporting Files */,
 			);
@@ -229,6 +299,9 @@
 		656C75E41A228A740051B93F /* fartwatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				6524B0CC1A22A0A90088602D /* fartwatch WatchKit Extension.entitlements */,
+				6524B0D01A22A9480088602D /* images */,
+				6524B0B21A2299040088602D /* sounds */,
 				656C75E71A228A740051B93F /* InterfaceController.swift */,
 				6524B0B01A2297B90088602D /* FartPlayer.swift */,
 				656C75E91A228A740051B93F /* Images.xcassets */,
@@ -248,6 +321,7 @@
 		656C75F11A228A740051B93F /* fartwatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6524B0D31A22AA120088602D /* logonew-02.png */,
 				656C75F41A228A740051B93F /* Interface.storyboard */,
 				656C75F61A228A740051B93F /* Images.xcassets */,
 				656C75F21A228A740051B93F /* Supporting Files */,
@@ -347,6 +421,12 @@
 				TargetAttributes = {
 					656C759B1A226A120051B93F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = UBXY3JK49V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					656C75B01A226A120051B93F = {
 						CreatedOnToolsVersion = 6.2;
@@ -354,9 +434,16 @@
 					};
 					656C75DF1A228A740051B93F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = UBXY3JK49V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					656C75EC1A228A740051B93F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = UBXY3JK49V;
 					};
 				};
 			};
@@ -397,6 +484,7 @@
 				656C75D71A2284010051B93F /* fart8.wav in Resources */,
 				656C75DA1A2284010051B93F /* fart11.wav in Resources */,
 				656C75A91A226A120051B93F /* Images.xcassets in Resources */,
+				6524B0CF1A22A7870088602D /* logonew-02.png in Resources */,
 				656C75D61A2284010051B93F /* fart7.wav in Resources */,
 				656C75DB1A2284010051B93F /* fart12.wav in Resources */,
 				656C75C81A227A350051B93F /* fart1.wav in Resources */,
@@ -415,8 +503,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6524B0C21A2299040088602D /* fart12.wav in Resources */,
+				6524B0C61A2299040088602D /* fart5.wav in Resources */,
+				6524B0C01A2299040088602D /* fart10.wav in Resources */,
+				6524B0BF1A2299040088602D /* fart1.wav in Resources */,
+				6524B0C51A2299040088602D /* fart4.wav in Resources */,
+				6524B0C11A2299040088602D /* fart11.wav in Resources */,
 				656C75EE1A228A740051B93F /* fartwatch Watch App.app in Resources */,
+				6524B0C41A2299040088602D /* fart3.wav in Resources */,
+				6524B0D21A22A9670088602D /* logonew-02.png in Resources */,
+				6524B0C71A2299040088602D /* fart6.wav in Resources */,
+				6524B0C81A2299040088602D /* fart7.wav in Resources */,
 				656C75EA1A228A740051B93F /* Images.xcassets in Resources */,
+				6524B0C91A2299040088602D /* fart8.wav in Resources */,
+				6524B0C31A2299040088602D /* fart2.wav in Resources */,
+				6524B0CA1A2299040088602D /* fart9.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +527,7 @@
 			files = (
 				656C75F51A228A740051B93F /* Interface.storyboard in Resources */,
 				656C75F71A228A740051B93F /* Images.xcassets in Resources */,
+				6524B0D41A22AA120088602D /* logonew-02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,10 +684,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fartwatch/fartwatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = fartwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -593,10 +699,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fartwatch/fartwatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = fartwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -639,6 +749,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -646,6 +758,7 @@
 				IBSC_MODULE = fartwatch_WatchKit_Extension;
 				INFOPLIST_FILE = "fartwatch Watch App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -657,9 +770,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				IBSC_MODULE = fartwatch_WatchKit_Extension;
 				INFOPLIST_FILE = "fartwatch Watch App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -669,6 +785,9 @@
 		656C75FF1A228A740051B93F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fartwatch WatchKit Extension/fartwatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -676,6 +795,7 @@
 				INFOPLIST_FILE = "fartwatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -683,9 +803,13 @@
 		656C76001A228A740051B93F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fartwatch WatchKit Extension/fartwatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "fartwatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

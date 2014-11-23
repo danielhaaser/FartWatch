@@ -15,6 +15,7 @@
                                 <action selector="btnFartPressed" destination="AgC-eL-Hgc" id="4Yb-PU-Qhj"/>
                             </connections>
                         </button>
+                        <imageView alignment="left" image="logonew-02.png" id="f9I-TY-Cdm"/>
                     </items>
                 </controller>
             </objects>
