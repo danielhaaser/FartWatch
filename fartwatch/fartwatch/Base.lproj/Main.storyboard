@@ -26,13 +26,24 @@
                                     <action selector="btnPlayFart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wG4-M5-keP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huh?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBD-9H-iZj">
+                                <rect key="frame" x="279.5" y="262" width="41" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="GBD-9H-iZj" secondAttribute="centerX" id="4f0-Zh-gf5"/>
                             <constraint firstAttribute="centerX" secondItem="HS8-f1-QWl" secondAttribute="centerX" id="6Gh-ER-QIK"/>
+                            <constraint firstItem="GBD-9H-iZj" firstAttribute="top" secondItem="HS8-f1-QWl" secondAttribute="bottom" constant="100" id="sAa-Xi-g89"/>
                             <constraint firstItem="HS8-f1-QWl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="tnB-B8-ILT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblTestLabel" destination="GBD-9H-iZj" id="nwN-fj-01E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

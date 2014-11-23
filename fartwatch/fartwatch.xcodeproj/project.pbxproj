@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6524B0B11A2297B90088602D /* FartPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524B0B01A2297B90088602D /* FartPlayer.swift */; };
 		656C75A21A226A120051B93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A11A226A120051B93F /* AppDelegate.swift */; };
 		656C75A41A226A120051B93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A31A226A120051B93F /* ViewController.swift */; };
 		656C75A71A226A120051B93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C75A51A226A120051B93F /* Main.storyboard */; };
@@ -26,6 +27,13 @@
 		656C75D91A2284010051B93F /* fart10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D11A2284010051B93F /* fart10.wav */; };
 		656C75DA1A2284010051B93F /* fart11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D21A2284010051B93F /* fart11.wav */; };
 		656C75DB1A2284010051B93F /* fart12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 656C75D31A2284010051B93F /* fart12.wav */; };
+		656C75E31A228A740051B93F /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656C75E21A228A740051B93F /* WatchKit.framework */; };
+		656C75E81A228A740051B93F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75E71A228A740051B93F /* InterfaceController.swift */; };
+		656C75EA1A228A740051B93F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656C75E91A228A740051B93F /* Images.xcassets */; };
+		656C75EE1A228A740051B93F /* fartwatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 656C75ED1A228A740051B93F /* fartwatch Watch App.app */; };
+		656C75F51A228A740051B93F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C75F41A228A740051B93F /* Interface.storyboard */; };
+		656C75F71A228A740051B93F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656C75F61A228A740051B93F /* Images.xcassets */; };
+		656C75FA1A228A740051B93F /* fartwatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 656C75E01A228A740051B93F /* fartwatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +44,38 @@
 			remoteGlobalIDString = 656C759B1A226A120051B93F;
 			remoteInfo = fartwatch;
 		};
+		656C75EF1A228A740051B93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656C75941A226A120051B93F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656C75EC1A228A740051B93F;
+			remoteInfo = "fartwatch Watch App";
+		};
+		656C75F81A228A740051B93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656C75941A226A120051B93F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656C75DF1A228A740051B93F;
+			remoteInfo = "fartwatch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		656C76011A228A740051B93F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				656C75FA1A228A740051B93F /* fartwatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6524B0B01A2297B90088602D /* FartPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FartPlayer.swift; sourceTree = "<group>"; };
 		656C759C1A226A120051B93F /* fartwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C75A01A226A120051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656C75A11A226A120051B93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +99,15 @@
 		656C75D11A2284010051B93F /* fart10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart10.wav; sourceTree = "<group>"; };
 		656C75D21A2284010051B93F /* fart11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart11.wav; sourceTree = "<group>"; };
 		656C75D31A2284010051B93F /* fart12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart12.wav; sourceTree = "<group>"; };
+		656C75E01A228A740051B93F /* fartwatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fartwatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656C75E21A228A740051B93F /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		656C75E61A228A740051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656C75E71A228A740051B93F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		656C75E91A228A740051B93F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		656C75ED1A228A740051B93F /* fartwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fartwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656C75F31A228A740051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656C75F41A228A740051B93F /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		656C75F61A228A740051B93F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +125,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		656C75DD1A228A740051B93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75E31A228A740051B93F /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +141,9 @@
 			children = (
 				656C759E1A226A120051B93F /* fartwatch */,
 				656C75B41A226A120051B93F /* fartwatchTests */,
+				656C75E41A228A740051B93F /* fartwatch WatchKit Extension */,
+				656C75F11A228A740051B93F /* fartwatch Watch App */,
+				656C75E11A228A740051B93F /* Frameworks */,
 				656C759D1A226A120051B93F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +153,8 @@
 			children = (
 				656C759C1A226A120051B93F /* fartwatch.app */,
 				656C75B11A226A120051B93F /* fartwatchTests.xctest */,
+				656C75E01A228A740051B93F /* fartwatch WatchKit Extension.appex */,
+				656C75ED1A228A740051B93F /* fartwatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +218,51 @@
 			path = sounds;
 			sourceTree = "<group>";
 		};
+		656C75E11A228A740051B93F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656C75E21A228A740051B93F /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		656C75E41A228A740051B93F /* fartwatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				656C75E71A228A740051B93F /* InterfaceController.swift */,
+				6524B0B01A2297B90088602D /* FartPlayer.swift */,
+				656C75E91A228A740051B93F /* Images.xcassets */,
+				656C75E51A228A740051B93F /* Supporting Files */,
+			);
+			path = "fartwatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		656C75E51A228A740051B93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656C75E61A228A740051B93F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656C75F11A228A740051B93F /* fartwatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				656C75F41A228A740051B93F /* Interface.storyboard */,
+				656C75F61A228A740051B93F /* Images.xcassets */,
+				656C75F21A228A740051B93F /* Supporting Files */,
+			);
+			path = "fartwatch Watch App";
+			sourceTree = "<group>";
+		};
+		656C75F21A228A740051B93F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656C75F31A228A740051B93F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,10 +273,12 @@
 				656C75981A226A120051B93F /* Sources */,
 				656C75991A226A120051B93F /* Frameworks */,
 				656C759A1A226A120051B93F /* Resources */,
+				656C76011A228A740051B93F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				656C75F91A228A740051B93F /* PBXTargetDependency */,
 			);
 			name = fartwatch;
 			productName = fartwatch;
@@ -197,6 +303,39 @@
 			productReference = 656C75B11A226A120051B93F /* fartwatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		656C75DF1A228A740051B93F /* fartwatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656C75FE1A228A740051B93F /* Build configuration list for PBXNativeTarget "fartwatch WatchKit Extension" */;
+			buildPhases = (
+				656C75DC1A228A740051B93F /* Sources */,
+				656C75DD1A228A740051B93F /* Frameworks */,
+				656C75DE1A228A740051B93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656C75F01A228A740051B93F /* PBXTargetDependency */,
+			);
+			name = "fartwatch WatchKit Extension";
+			productName = "fartwatch WatchKit Extension";
+			productReference = 656C75E01A228A740051B93F /* fartwatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		656C75EC1A228A740051B93F /* fartwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656C75FB1A228A740051B93F /* Build configuration list for PBXNativeTarget "fartwatch Watch App" */;
+			buildPhases = (
+				656C75EB1A228A740051B93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fartwatch Watch App";
+			productName = "fartwatch Watch App";
+			productReference = 656C75ED1A228A740051B93F /* fartwatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +351,12 @@
 					656C75B01A226A120051B93F = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 656C759B1A226A120051B93F;
+					};
+					656C75DF1A228A740051B93F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					656C75EC1A228A740051B93F = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -230,6 +375,8 @@
 			targets = (
 				656C759B1A226A120051B93F /* fartwatch */,
 				656C75B01A226A120051B93F /* fartwatchTests */,
+				656C75DF1A228A740051B93F /* fartwatch WatchKit Extension */,
+				656C75EC1A228A740051B93F /* fartwatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +411,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		656C75DE1A228A740051B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75EE1A228A740051B93F /* fartwatch Watch App.app in Resources */,
+				656C75EA1A228A740051B93F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656C75EB1A228A740051B93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75F51A228A740051B93F /* Interface.storyboard in Resources */,
+				656C75F71A228A740051B93F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -285,6 +450,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		656C75DC1A228A740051B93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656C75E81A228A740051B93F /* InterfaceController.swift in Sources */,
+				6524B0B11A2297B90088602D /* FartPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +466,16 @@
 			isa = PBXTargetDependency;
 			target = 656C759B1A226A120051B93F /* fartwatch */;
 			targetProxy = 656C75B21A226A120051B93F /* PBXContainerItemProxy */;
+		};
+		656C75F01A228A740051B93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656C75EC1A228A740051B93F /* fartwatch Watch App */;
+			targetProxy = 656C75EF1A228A740051B93F /* PBXContainerItemProxy */;
+		};
+		656C75F91A228A740051B93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656C75DF1A228A740051B93F /* fartwatch WatchKit Extension */;
+			targetProxy = 656C75F81A228A740051B93F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = fartwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = fartwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +634,62 @@
 			};
 			name = Release;
 		};
+		656C75FC1A228A740051B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = fartwatch_WatchKit_Extension;
+				INFOPLIST_FILE = "fartwatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		656C75FD1A228A740051B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = fartwatch_WatchKit_Extension;
+				INFOPLIST_FILE = "fartwatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		656C75FF1A228A740051B93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fartwatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		656C76001A228A740051B93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fartwatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,6 +709,7 @@
 				656C75BD1A226A120051B93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		656C75BE1A226A120051B93F /* Build configuration list for PBXNativeTarget "fartwatchTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +718,25 @@
 				656C75C01A226A120051B93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656C75FB1A228A740051B93F /* Build configuration list for PBXNativeTarget "fartwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656C75FC1A228A740051B93F /* Debug */,
+				656C75FD1A228A740051B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656C75FE1A228A740051B93F /* Build configuration list for PBXNativeTarget "fartwatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656C75FF1A228A740051B93F /* Debug */,
+				656C76001A228A740051B93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
