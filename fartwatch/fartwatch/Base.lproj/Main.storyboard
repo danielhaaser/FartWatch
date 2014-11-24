@@ -17,36 +17,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS8-f1-QWl">
-                                <rect key="frame" x="276" y="298" width="49" height="42"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS8-f1-QWl">
+                                <rect key="frame" x="-41" y="340" width="682" height="270"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Fart!">
+                                <state key="normal" backgroundImage="Apple_Watch_logo-05 (1).png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="btnPlayFart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wG4-M5-keP"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logonew-02.png" translatesAutoresizingMaskIntoConstraints="NO" id="JFH-67-b6B">
+                                <rect key="frame" x="16" y="10" width="568" height="238"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huh?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBD-9H-iZj">
-                                <rect key="frame" x="279.5" y="440" width="41" height="20.5"/>
+                                <rect key="frame" x="280" y="279" width="41" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logonew-02.png" translatesAutoresizingMaskIntoConstraints="NO" id="JFH-67-b6B">
-                                <rect key="frame" x="16" y="10" width="568" height="238"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="HS8-f1-QWl" firstAttribute="top" secondItem="GBD-9H-iZj" secondAttribute="bottom" constant="40" id="0xV-U6-jWJ"/>
                             <constraint firstAttribute="centerX" secondItem="GBD-9H-iZj" secondAttribute="centerX" id="4f0-Zh-gf5"/>
                             <constraint firstAttribute="centerX" secondItem="HS8-f1-QWl" secondAttribute="centerX" id="6Gh-ER-QIK"/>
-                            <constraint firstItem="HS8-f1-QWl" firstAttribute="top" secondItem="JFH-67-b6B" secondAttribute="bottom" constant="50" id="Hzf-wh-w3F"/>
                             <constraint firstItem="JFH-67-b6B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="O9S-jP-tDL"/>
                             <constraint firstItem="JFH-67-b6B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OT4-E9-G93"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HS8-f1-QWl" secondAttribute="bottom" constant="-10" id="Zqz-8v-p4e"/>
+                            <constraint firstItem="HS8-f1-QWl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dxT-0M-fix"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JFH-67-b6B" secondAttribute="trailing" id="hP2-Bj-C9A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HS8-f1-QWl" secondAttribute="trailing" id="rkJ-mh-gpq"/>
                             <constraint firstItem="GBD-9H-iZj" firstAttribute="top" secondItem="HS8-f1-QWl" secondAttribute="bottom" constant="100" id="sAa-Xi-g89"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="dxT-0M-fix"/>
+                                <exclude reference="rkJ-mh-gpq"/>
+                                <exclude reference="sAa-Xi-g89"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="lblTestLabel" destination="GBD-9H-iZj" id="nwN-fj-01E"/>
@@ -57,6 +67,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Apple_Watch_logo-05 (1).png" width="682" height="270"/>
         <image name="logonew-02.png" width="1032" height="238"/>
     </resources>
 </document>
