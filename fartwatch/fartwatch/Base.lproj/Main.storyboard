@@ -45,18 +45,8 @@
                             <constraint firstItem="JFH-67-b6B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="O9S-jP-tDL"/>
                             <constraint firstItem="JFH-67-b6B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OT4-E9-G93"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HS8-f1-QWl" secondAttribute="bottom" constant="-10" id="Zqz-8v-p4e"/>
-                            <constraint firstItem="HS8-f1-QWl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dxT-0M-fix"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JFH-67-b6B" secondAttribute="trailing" id="hP2-Bj-C9A"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="HS8-f1-QWl" secondAttribute="trailing" id="rkJ-mh-gpq"/>
-                            <constraint firstItem="GBD-9H-iZj" firstAttribute="top" secondItem="HS8-f1-QWl" secondAttribute="bottom" constant="100" id="sAa-Xi-g89"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="dxT-0M-fix"/>
-                                <exclude reference="rkJ-mh-gpq"/>
-                                <exclude reference="sAa-Xi-g89"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="lblTestLabel" destination="GBD-9H-iZj" id="nwN-fj-01E"/>

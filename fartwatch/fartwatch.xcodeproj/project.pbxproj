@@ -27,6 +27,7 @@
 		6524B0D81A22ABB00088602D /* Apple_Watch_logo-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0D71A22ABB00088602D /* Apple_Watch_logo-05.png */; };
 		6524B0DA1A22ABEE0088602D /* Apple_Watch_logo-05 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0D91A22ABEE0088602D /* Apple_Watch_logo-05 (1).png */; };
 		6524B0DC1A22AC790088602D /* whitelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0DB1A22AC790088602D /* whitelogo.png */; };
+		6524B0DE1A22B15B0088602D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6524B0DD1A22B15B0088602D /* button.png */; };
 		656C75A21A226A120051B93F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A11A226A120051B93F /* AppDelegate.swift */; };
 		656C75A41A226A120051B93F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C75A31A226A120051B93F /* ViewController.swift */; };
 		656C75A71A226A120051B93F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656C75A51A226A120051B93F /* Main.storyboard */; };
@@ -116,6 +117,7 @@
 		6524B0D71A22ABB00088602D /* Apple_Watch_logo-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple_Watch_logo-05.png"; sourceTree = "<group>"; };
 		6524B0D91A22ABEE0088602D /* Apple_Watch_logo-05 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple_Watch_logo-05 (1).png"; sourceTree = "<group>"; };
 		6524B0DB1A22AC790088602D /* whitelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitelogo.png; sourceTree = "<group>"; };
+		6524B0DD1A22B15B0088602D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		656C759C1A226A120051B93F /* fartwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C75A01A226A120051B93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656C75A11A226A120051B93F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 		656C75F11A228A740051B93F /* fartwatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				6524B0DD1A22B15B0088602D /* button.png */,
 				6524B0DB1A22AC790088602D /* whitelogo.png */,
 				6524B0D71A22ABB00088602D /* Apple_Watch_logo-05.png */,
 				6524B0D51A22AB720088602D /* whitelogo-04.png */,
@@ -538,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6524B0DE1A22B15B0088602D /* button.png in Resources */,
 				6524B0D81A22ABB00088602D /* Apple_Watch_logo-05.png in Resources */,
 				656C75F51A228A740051B93F /* Interface.storyboard in Resources */,
 				6524B0DC1A22AC790088602D /* whitelogo.png in Resources */,

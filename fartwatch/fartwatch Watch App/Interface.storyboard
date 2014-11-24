@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="fartwatch_Watch_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="center" verticalAlignment="center" backgroundImage="Apple_Watch_logo-05.png" id="Tds-3O-Roy">
+                        <button width="1" alignment="center" verticalAlignment="center" backgroundImage="button.png" id="Tds-3O-Roy">
                             <connections>
                                 <action selector="btnFartPressed" destination="AgC-eL-Hgc" id="4Yb-PU-Qhj"/>
                             </connections>
